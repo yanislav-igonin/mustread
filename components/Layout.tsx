@@ -5,11 +5,11 @@ export const Layout = ({ children }: { children: React.ReactNode }) => <div>
     <DarkModeButton />
   </div>
 
-  <div className='w-screen h-screen dark:bg-slate-500'>
+  <div className='w-screen h-screen dark:bg-slate-500 grid grid-cols-4'>
     <div>
-
+      menu
     </div>
-    <div>
+    <div className='col-span-3'>
       <main>
         {children}
       </main>
