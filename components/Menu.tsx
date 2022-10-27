@@ -11,7 +11,7 @@ const Tag = (tag: string) => <li key={tag}
   </Link>
 </li>;
 
-export const Menu = ({ tags }: Props) => <div>
+export const Menu = ({ tags }: Props) => <div className='p-4'>
   <ul>
     {tags.map(Tag)}
   </ul>

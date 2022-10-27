@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import { Layout } from '@components';
+import { Article, Layout } from '@components';
+import { mustreads } from 'mustreads';
 
 const Home: NextPage = () => {
   return <div>
@@ -9,7 +10,7 @@ const Home: NextPage = () => {
     </Head>
 
     <Layout>
-      hello
+      {mustreads.map((m) => <Article key={m.url} data={m} />)}
     </Layout>
   </div>;
 };
