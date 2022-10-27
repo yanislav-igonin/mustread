@@ -5,7 +5,7 @@ import { Layout } from '@components';
 const Home: NextPage = () => {
   return <div>
     <Head>
-      <title>{'h0b0\'s Mustreads'}</title>
+      <title>{'h0b0\'s mustreads'}</title>
     </Head>
 
     <Layout>
