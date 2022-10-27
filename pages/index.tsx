@@ -1,11 +1,11 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import { DarkModeButton, MainCard } from '@components';
+import { DarkModeButton } from '@components';
 
 const Home: NextPage = () => {
   return <div>
     <Head>
-      <title>NextJS Template</title>
+      <title>{'h0b0\'s Mustreads'}</title>
     </Head>
 
     <div className="absolute top-0 right-0 p-2">
@@ -13,7 +13,7 @@ const Home: NextPage = () => {
     </div>
 
     <main className="flex h-screen justify-center items-center bg-gradient-to-tr from-emerald-400 to-fuchsia-400 dark:from-emerald-600 dark:to-fuchsia-600">
-      <MainCard />
+      {/* <MainCard /> */}
     </main>
   </div>;
 };
