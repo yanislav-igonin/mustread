@@ -1,5 +1,5 @@
-# nextjs-template
-Demo - https://nextjs-template-one-mu.vercel.app/
+# mustreads
+Personal list of mustreads.
 
 ## Tech Stack
 - TypeScript
