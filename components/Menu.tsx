@@ -5,7 +5,7 @@ type Props = {
 }
 
 const Tag = (tag: string) => <li key={tag}
-  className='text-xl dark:text-stone-100 hover:text-rose-500'>
+  className='text-xl dark:text-stone-100 hover:text-rose-500 dark:hover:text-rose-500'>
   <Link href={`/?tag=${tag}`}>
     - {tag}
   </Link>
