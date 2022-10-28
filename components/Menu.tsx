@@ -11,7 +11,7 @@ const Tag = (tag: string) => <li key={tag}
   </Link>
 </li>;
 
-export const Menu = ({ tags }: Props) => <div className='p-4'>
+export const Menu = ({ tags }: Props) => <div className='p-4 hidden md:block'>
   <ul className='border-r-2 border-r-slate-700 dark:border-r-stone-100'>
     {tags.map(Tag)}
   </ul>
