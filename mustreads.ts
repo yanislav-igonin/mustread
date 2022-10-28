@@ -3,15 +3,9 @@ export type Mustread = { title: string; description: string; url: string; tags: 
 export const mustreads: Mustread[] = [
   {
     title: 'Painless Functional Specifications',
-    description: 'A guide to writing functional specifications that are easy to understand and implement.',
+    description: 'A 4-article series about writing functional specifications that are easy to understand and implement. How to write, what you should include, who will read it, etc.',
     url: 'https://www.joelonsoftware.com/2000/10/02/painless-functional-specifications-part-1-why-bother/',
     tags: ['specifications'],
-  },
-  {
-    title: 'React Docs',
-    description: 'The official React documentation.',
-    url: 'https://reactjs.org/',
-    tags: ['react', 'documentation'],
   },
 ];
 
