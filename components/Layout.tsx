@@ -8,9 +8,7 @@ export const Layout = ({ children }: { children: React.ReactNode }) => <div>
   </div>
 
   <div className='w-screen h-screen dark:bg-slate-700 grid grid-cols-4'>
-    <div>
-      <Menu tags={tags} />
-    </div>
+    <Menu tags={tags} />
     <div className='col-span-3 p-4'>
       <main>
         {children}
