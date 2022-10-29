@@ -10,7 +10,7 @@ export const Layout = ({ children }: { children: React.ReactNode }) => <div>
   <div className='w-screen dark:bg-slate-700 grid grid-cols-4'>
     <Menu tags={tags} />
     <div className='md:col-span-3 col-span-4 p-4'>
-      <main className='overflow-visible'>
+      <main className='md:h-screen md:overflow-scroll'>
         {children}
       </main>
     </div>
