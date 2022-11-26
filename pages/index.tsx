@@ -4,8 +4,9 @@ import { Article, Layout } from '@components';
 import { mustreads } from 'mustreads';
 import { useRouter } from 'next/router';
 
-export const byTag = (tag: string) =>
-  mustreads.filter((mustread) => mustread.tags.includes(tag));
+export const byTag = (tag: string) => tag === 'all'
+  ? mustreads
+  : mustreads.filter((m) => m.tags.includes(tag));
 
 const Home: NextPage = () => {
   const router = useRouter();

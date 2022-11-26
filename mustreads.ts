@@ -22,4 +22,7 @@ export const mustreads: Mustread[] = [
 ];
 
 // Only unique tags.
-export const tags = Array.from(new Set(mustreads.map((mustread) => mustread.tags).flat()));
+export const tags = [
+  Array.from(
+    new Set(mustreads.map((mustread) => mustread.tags).flat())
+  ), 'all'].flat();
