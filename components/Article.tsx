@@ -21,8 +21,14 @@ const ArticleDescription = ({ description }: DescriptionProps) =>
     {description}
   </p>;
 
+const Tag = ({ tag }: { tag: string }) =>
+  <span>
+    <Link className='hover:text-rose-500 dark:hover:text-rose-500'
+      href={`/?tag=${tag}`}>{tag} </Link>
+  </span>;
+
 const ArticleTags = ({ tags }: TagsProps) => <div className='dark:text-stone-100'>
-  tags: {tags.map((t) => <span key={t}>{t} </span>)}
+  tags: {tags.map((t) => <Tag key={t} tag={t} />)}
 </div>;
 
 export const Article = ({ data: { title, description, url, tags } }: Props) => <div className='mb-8'>
