@@ -19,6 +19,12 @@ export const mustreads: Mustread[] = [
     url: 'https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/',
     tags: ['psychology'],
   },
+  {
+    title: 'Always be quitting',
+    description: 'An article about working like you\'re quitting. How to get the most out of your job and be better engerineer.',
+    url: 'https://jmmv.dev/2021/04/always-be-quitting.html',
+    tags: ['work'],
+  },
 ];
 
 // Only unique tags.
