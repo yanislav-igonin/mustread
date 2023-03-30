@@ -25,6 +25,12 @@ export const mustreads: Mustread[] = [
     url: 'https://jmmv.dev/2021/04/always-be-quitting.html',
     tags: ['work'],
   },
+  {
+    title: 'Contracts you should never sign',
+    description: 'An article about contracts. What to avoid in the contract.',
+    url: 'https://vadimkravcenko.com/shorts/contracts-you-should-never-sign/',
+    tags: ['work'],
+  },
 ];
 
 // Only unique tags.
