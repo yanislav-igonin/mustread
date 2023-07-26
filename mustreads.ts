@@ -31,6 +31,12 @@ export const mustreads: Mustread[] = [
     url: 'https://vadimkravcenko.com/shorts/contracts-you-should-never-sign/',
     tags: ['work'],
   },
+  {
+    title: 'Refactor Like a Superhero',
+    description: 'It is a book about how to refactor code efficiently and without pain. In it, we will discuss the benefits of refactoring for development and business and explore ways of searching for problems in code and fixing them.',
+    url: 'https://refactor-like-a-superhero.vercel.app',
+    tags: ['work', 'refactoring'],
+  },
 ];
 
 // Only unique tags.
